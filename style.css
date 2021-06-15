@@ -1,0 +1,108 @@
+:root {
+ --image-size: 150px;
+ --padding-menu-topo: 30px;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: var(--image-size);
+    height: var(--image-size);
+    border-radius: calc(var(--image-size  ) / 2);
+}
+
+.menu_topo {
+    padding-left: var(--padding-menu-topo);
+    padding-right: var(--padding-menu-topo);
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.menu_navegacao {
+    display: inline-block;
+    width: 70%;
+}
+
+.menu_perfil {
+    display: inline-block;
+    text-align: right;
+    width: 29%;
+}
+
+.filtro_projetos {
+    border-radius: 5px;
+    height: 20px;
+}
+
+.filtro_projetos {
+    display: inline-block;
+}
+
+.menu_opcoes {
+    display: inline-block;
+}
+
+.menu_opcoes > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu_perfil > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bt_new_repo {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.dados_pefil {
+    float: left;
+    display: inline-block;
+    width: 29%;
+}
+
+.lista_repositorio {
+    display: inline-block;
+    width: 70%;
+}
+
+.menu_abas {
+    display: inline-block;
+}
+
+.menu_abas > div {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.menu_abas > div:hover {
+    border-bottom: 1px solid orange;
+}
+
+.btn_editar_perfil {
+    width: 100%;
+}
+
+.conteudo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.conteudo_personalizado {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+}
+
+input {
+    display: inline-block;
+}

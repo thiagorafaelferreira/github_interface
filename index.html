@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu_topo">
+        <div class="menu_navegacao">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <input placeholder="Search or jump too..." class="filtro_projetos" type="text" />
+            <div class="menu_opcoes">
+                <div>Pull requests</div>
+                <div>Issues</div>
+                <div>Marketplace</div>
+                <div>Explore</div>
+            </div>
+        </div>
+        
+        <div class=menu_perfil>
+            <div>Notificações</div>
+            <div>Opções</div>
+            <div>Perfil</div>
+        </div>
+    </div>
+    <div class="conteudo conteudo_personalizado">
+        <div class="dados_pefil">
+            <span>&nbsp;</span>
+        </div>
+        <div class="lista_repositorio">
+            <div class="menu_abas">
+                <div>Oerview</div>
+                <div>Repositories</div>
+                <div>Projects</div>
+                <div>Packages</div>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div class="dados_pefil">
+            <img src="imagens/eu.jpg" />
+            <h1>Thiago Rafael Ferreira</h1>
+            <h2>ThiagoRafaelFerreira</h2>
+            <h2>Desenvolvedor Full Stack</h2>
+            <button class="btn_editar_perfil">Editar Perfil</button>
+        </div>
+        <div class="lista_repositorio">
+            <div class="filtro_lista">
+                <input placeholder="Find a repository..." class="filtro_projetos" type="text" />
+                <select name="Type" id="tipos"></select>
+                <select name="Language" id="linguagem"></select>
+                <select name="Sort" id="ordenacao"></select>
+                <button class="bt_new_repo" type="submit">New</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
